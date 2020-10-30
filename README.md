@@ -1,2 +1,6 @@
-# ReplyCTF-R-Boy_Security
-Reply Cyber Security Challenge - R-Boy Meets the Security World Writeups
+# Reply Cyber Security Challenges - R-Boy Meets the Security World Write-ups
+
+This repo contains all the write-ups from the Reply Cyber Security Challenges - R-Boy Meets the Security World
+
+Every folder contains the files that offer step-by-step instructions on how to solve each challenge
+
