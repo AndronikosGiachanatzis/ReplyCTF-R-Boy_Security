@@ -1,0 +1,24 @@
+Challenge: https://challenges.reply.com/tamtamy/challenge/8/detail
+
+Reply Challenges R-Boy meets the security world
+
+Web: Stranger Code -WriteUp-
+Author: Andronikos Giachanatzis 
+
+Extract the files from the zip.
+Open html file and js
+The html file requires a string in the password field
+Js file simply takes the input from the passwd field and checks if it's the same with var c
+Simply edit the js code to override the check:
+
+    c = strrev(c);
+
+    b = "Congratulation! The flag is: " + flag()
+
+    document.getElementById("result").innerHTML = b
+    
+
+The above code replaces the final lines of the original js file.
+Instead of checking whether a == c, simply return the flag in b
+save js
+open html page in a browser again, press check and voila!
