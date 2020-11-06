@@ -1,4 +1,6 @@
-
+''' 
+Author: Andronikos Giachanatzis
+'''
 
 def getdict(filename):
     '''
