@@ -1,0 +1,12 @@
+Challenge: https://challenges.reply.com/tamtamy/challenge/8/detail
+
+Miscellaneous: Dig Into The Blood -WriteUp-
+Author: Dimitrios Vavatsioulas
+
+• First step is to run tools like binwalk and foremost. We can see that neither is finding something useful. As it seems, no file is hidden in the image.
+• Next approach is to visually examine the image. A well-known tool for Stego is Stegsolve.jar
+• Open the image in Stegsolve and explore the different Planes. We can see that while in Red Plane 2, our flag is starting to show up in the image. (Blood in challenge's title is a reference for Red color)
+• Now we almost know where the flag is written in the image. Next step is to manipulate tha image in a way that the flag is clearly visible.
+• Open image in Photoshop, go to Adjustments->Curves. By randomly and slowly adjusting the curves, we can come to a point where the flag is clearly visible.
+
+{FLG:TargetBuilding.dxf}
