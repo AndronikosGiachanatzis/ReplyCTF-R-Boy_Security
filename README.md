@@ -7,5 +7,5 @@ Every folder contains the files that offer step-by-step instructions on how to s
 Authors:
 - Andronikos Giachanatzis
 - Dimitris Vavatsioulas
-- Dimitris Iosofidis
+- Dimitris Iosifidis
 - Dimitris Theodorou
